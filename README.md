@@ -5,15 +5,15 @@ Project in “Fundamentals of Software Engineering “course - developed a ticke
 # 💻 Technologies 
 
 #### Requirements: <br />
-  * Windows(tested on Windows10x64)<br/ >
-  * Python 3<br />
-  * Numpy<br/ >
-  * Cv2<br/ >
+  * Windows(tested on Windows10x64)
+  * Python 3
+  * Numpy
+  * Cv2
   *
 #### Code execution: <br /> 
 The following will run through the code execution in steps of inputs to enter and expected output
 
-Execute python LSBM-algorithm.py in command prompt<br/ >
+Execute python LSBM-algorithm.py in command prompt
 1.In main function user is required to enter:<br />
     input image to "input_image" field<br />
     output image to "output_image" field<br />
