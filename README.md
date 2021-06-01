@@ -1,7 +1,6 @@
-# data_security_project
-project in data security of pictures encription 
-# Introduction
-Project in “Fundamentals of Software Engineering “course - developed a ticket management system for service companies, including database management, written in c++.
+# Introduction - data_security_project
+project in data security of pictures encription written in python 3
+
 # 💻 Technologies 
 
 #### Requirements: <br />
@@ -13,7 +12,7 @@ Project in “Fundamentals of Software Engineering “course - developed a ticke
 #### Code execution: <br /> 
 The following will run through the code execution in steps of inputs to enter and expected output
 
-Execute python LSBM-algorithm.py in command prompt
+Execute python LSBM-algorithm.py in command prompt<br/>
 1.In main function user is required to enter:<br />
     input image to "input_image" field<br />
     output image to "output_image" field<br />
