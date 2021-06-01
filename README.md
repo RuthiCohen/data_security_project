@@ -8,7 +8,8 @@ project in data security of pictures encription written in python 3
   * Python 3
   * Numpy
   * Cv2
-  *
+  
+  
 #### Code execution: <br /> 
 The following will run through the code execution in steps of inputs to enter and expected output
 
@@ -21,6 +22,8 @@ Execute python LSBM-algorithm.py in command prompt<br/>
 3.During program running "Threshold binary inverse image (in gray)", "Image edges detection using canny algorithm"
 will be printed to the screen<br />
 4.At the end of the program image in the entered name of "output_image" will be created automatically in the src path<br />
+
+In order to access the code file you must be in the "Master" branch
 
 # 📗 Authors
 Tair Shriki 211966379<br />
