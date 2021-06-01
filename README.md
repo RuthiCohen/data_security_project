@@ -8,7 +8,7 @@ project in data security of pictures encription written in python 3
   * Python 3
   * Numpy
   * Cv2
-  *
+  
 #### Code execution: <br /> 
 The following will run through the code execution in steps of inputs to enter and expected output
 
