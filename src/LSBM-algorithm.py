@@ -21,7 +21,7 @@ def to_bin(data):
 
 def encode(input_image, secret_data):
 
-    # read the image and convert it to bits matrix
+    # read the image and convert it to bits matrix - width of kernel
     image = cv2.imread(input_image)
 
     # get the image height, width, channel

@@ -119,6 +119,7 @@ def encode(input_image, secret_data):
 
 def decode(image_name):
     print(">> Decoding data from image\n")
+
     # read the image
     image = cv2.imread(image_name)
     binary_data = ""
@@ -128,8 +129,10 @@ def decode(image_name):
             binary_data += r[-1]
             binary_data += g[-1]
             binary_data += b[-1]
+
     # split by 8-bits
-    all_bytes = [ binary_data[i: i+8] for i in range(0, len(binary_data), 8) ]
+    all_bytes = [binary_data[i: i+8] for i in range(0, len(binary_data), 8)]
+
     # convert from bits to characters
     decoded_data = ""
     for byte in all_bytes:
@@ -169,7 +172,7 @@ def encode_message(data):
     return converted_data
 
 if __name__ == "__main__":
-    print("---------- This code runs on colored picture -------------")
+    # print("---------- This code runs on colored picture -------------")
 
     input_image = "input_image.png"
     output_image = "encoded_image.png"
@@ -187,11 +190,11 @@ if __name__ == "__main__":
     print(">> Decoded message before decryption: ", decoded_data)
     print(">> Decoded message after encryption: ", encode_message(decoded_data))
 
-    print("---------- This code runs on gray picture -------------")
+    # print("---------- This code runs on gray picture -------------")
 
-    input_image = "gray_input_image.png"
-    output_image = "gray_encoded_image.png"
-    secret_data = "This is a hidden message # 2 in colored image !!! shhhhhhhhhhhhh!!!"
+    input_image = "another_gary_image.PNG"
+    output_image = "another_encodded_gray_image.PNG"
+    secret_data = "ddd"
 
     encrypt_secret_data = encode_message(secret_data)
 
