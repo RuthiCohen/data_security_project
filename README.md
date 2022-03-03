@@ -24,7 +24,7 @@ will be printed to the screen<br />
 4.At the end of the program image in the entered name of "output_image" will be created automatically in the src path<br />
 
 # 📗 Authors
-Tair Shriki 211966379<br />
-Ruth Bracha Cohen 314653320<br />
-Margalit Lionov 316206879<br />
-Ravit Clark 208105270<br />
+Tair Shriki <br />
+Ruth Bracha Cohen <br />
+Margalit Lionov <br />
+Ravit Clark <br />
