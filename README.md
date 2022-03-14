@@ -1,5 +1,14 @@
 # Introduction - data_security_project
-project in data security of pictures encription written in python 3
+The software implements the algorithm which is proposed in the article "Robust Edge based Image Steganography through
+Pixel Intensity Adjustment".
+This system is software for encrypting a message(string format) or image within a grayscale image as well as extracting.
+The software has 2 operations: embedding and extraction, in both the cover image is divided into 3x3 blocks as a basis for the work of the algorithm proposed in the article.
+
+In the first block (top left corner) the length of the message or alternatively the dimensions of the image will be embedded. Therefore there are restrictions on the length of the message / image size.
+In the other blocks, the message / image is embedded according to the pairs of pixels in each block.
+If you choose to embed an message, as part of the upgrades it will undergo a double encryption process.
+If you choose to embed an image, it will go through a process of conversion to a string that symbolizes the pixels in binary.
+At the extraction stage the message or image respectively will appear Perfectly as embedded.
 
 # 💻 Technologies 
 
