@@ -19,7 +19,7 @@ At the extraction stage the message or image respectively will appear Perfectly 
   * Cv2
   
   
-#### Code execution: <br /> 
+#### 🛠️ Launch: <br /> 
 The following will run through the code execution in steps of inputs to enter and expected output
 
 Execute python LSBM-algorithm.py in command prompt<br/>
