@@ -1,8 +1,3 @@
-# Tair Shriki 211966379
-# Ruth Bracha Cohen 314653320
-# Margalit Lionov 316206879
-# Ravit Clark 208105270
-
 import cv2
 import numpy as np
 
