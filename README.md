@@ -1,13 +1,20 @@
 # Introduction - data_security_project
-The software implements the algorithm which is proposed in the article "Robust Edge based Image Steganography through
-Pixel Intensity Adjustment".
-This system is software for encrypting a message(string format) in a colored/grayscale image as well as extracting.
-The software has 2 operations: embedding and extraction, in both the cover image is divided into 3x3 blocks as a basis for the work of the algorithm proposed in the article.
+The software implements the algorithm which is proposed in the article "Robust Edge based Image Steganography through Pixel Intensity Adjustment".
+This system is a software for encrypting a message(string format) in a colored/grayscale image as well as extracting.
 
-In the first block (top left corner) the length of the message or alternatively the dimensions of the image will be embedded. Therefore there are restrictions on the length of the message / image size.
-In the other blocks, the message is embedded according to the pairs of pixels in each block.
-If you choose to embed an message, as part of the upgrades it will undergo a double encryption process.
-At the extraction stage the message respectively will appear Perfectly as embedded.
+We have suggested 2 improvements to this algo.
+1.Adding a layer of protection for the information hidden in the message - we encrypted the information before embedding it in the image
+so even if it is possible to retrieve the message it will not be possible to decrypt the cipher.
+2.According to the article, the encryption works only on gray images, we added in code support for colorful images too.
+
+The code before the enhancements can be found in the algorithm-lsbm.py file (according to the article)
+● In the improvements-after-algorithm-lsbm.py file you can find the code with our implementations of suggestions 1,2. 
+● In the finalCode.py file you can find our final product
+
+○ The encode.py file you can find the implementation of the encoded mssg. 
+Enter the name of the image in the field "image_input" and an encodedd image is the output with the message embedded in the file named in "image_output" field.
+Then run the code contained in the decode.py file.
+In the "image_output" field we enter the name of the image encoded in the first step → and we will receive the message encoded.
 
 # 💻 Technologies 
 
