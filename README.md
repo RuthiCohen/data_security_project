@@ -1,15 +1,15 @@
 # Introduction - data_security_project
-The software implements the algorithm which is proposed in the article "Robust Edge based Image Steganography through Pixel Intensity Adjustment".
+The software implements the algorithm which is proposed in the article "Robust Edge based Image Steganography through Pixel Intensity Adjustment".<br/>
 This system is a software for encrypting a message(string format) in a colored/grayscale image as well as extracting.
 
-We have suggested 2 improvements to this algo.
+We have suggested 2 improvements to this algo.<br/>
 1.Adding a layer of protection for the information hidden in the message - we encrypted the information before embedding it in the image
-so even if it is possible to retrieve the message it will not be possible to decrypt the cipher.
+so even if it is possible to retrieve the message it will not be possible to decrypt the cipher.<br/>
 2.According to the article, the encryption works only on gray images, we added in code support for colorful images too.
 
-The code before the enhancements can be found in the algorithm-lsbm.py file (according to the article)
-● In the improvements-after-algorithm-lsbm.py file you can find the code with our implementations of suggestions 1,2. 
-● In the finalCode.py file you can find our final product
+The code before the enhancements can be found in the algorithm-lsbm.py file (according to the article)<br/>
+● In the improvements-after-algorithm-lsbm.py file you can find the code with our implementations of suggestions 1,2. <br/>
+● In the finalCode.py file you can find our final product<br/>
 
 ○ The encode.py file you can find the implementation of the encoded mssg. 
 Enter the name of the image in the field "image_input" and an encodedd image is the output with the message embedded in the file named in "image_output" field.
